@@ -45,4 +45,12 @@ To replicate the results or apply the model to your data, run the scripts in the
 
 2.  **Train the CausalVAE model:**
     ```bash
-    python trainer_
+    python trainer_mode.py 
+
+3.  **Prediction with the CausalVAE model:**
+    ```bash
+    python prediction.py
+
+4.  **Counterfactual estimation with the CausalVAE model:**
+    ```bash
+    python counterfactual.py 
