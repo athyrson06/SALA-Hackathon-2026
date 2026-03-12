@@ -1,0 +1,15 @@
+# Core Data Science & Plotting
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tqdm
+
+# Deep Learning
+torch
+torchvision
+
+# Climate & Remote Data
+netCDF4
+boto3
