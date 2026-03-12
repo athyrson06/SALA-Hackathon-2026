@@ -1,0 +1,1474 @@
+{
+  "bucket": "sala-2026-hackathon-data",
+  "datasets": {
+    "precipitation-nowcasting": {
+      "description": "Weather station CSVs + LDAS gridded reanalysis + pretrained baselines for precipitation nowcasting",
+      "format": "csv+netcdf+pt",
+      "total_size_bytes": 2376336690,
+      "shards": [
+        {
+          "key": "precipitation-nowcasting/checkpoints/eval_gru.png",
+          "size_bytes": 100417,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/checkpoints/eval_lstm.png",
+          "size_bytes": 102453,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/checkpoints/eval_rnn.png",
+          "size_bytes": 101116,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/checkpoints/gru_heavy_rain_3h.pt",
+          "size_bytes": 808763,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/checkpoints/lstm_heavy_rain_3h.pt",
+          "size_bytes": 1075012,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/checkpoints/results.json",
+          "size_bytes": 1135,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/checkpoints/rnn_heavy_rain_3h.pt",
+          "size_bytes": 276219,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/checkpoints/training_curves.png",
+          "size_bytes": 67938,
+          "tags": [
+            "checkpoints"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/ldas/ROUTING_gal_001_daily_LIS_HIST.nc",
+          "size_bytes": 316820653,
+          "tags": [
+            "ldas"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/ldas/SURF_MOD_gal_001_daily_LIS_HIST.nc",
+          "size_bytes": 1733481235,
+          "tags": [
+            "ldas"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/weather_stations/CER_consolid_f15.csv",
+          "size_bytes": 74546508,
+          "tags": [
+            "stations"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/weather_stations/JUN_consolid_f15.csv",
+          "size_bytes": 87202357,
+          "tags": [
+            "stations"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/weather_stations/MERC_consolid_f15.csv",
+          "size_bytes": 82761367,
+          "tags": [
+            "stations"
+          ]
+        },
+        {
+          "key": "precipitation-nowcasting/weather_stations/MIRA_consolid_f15.csv",
+          "size_bytes": 78991517,
+          "tags": [
+            "stations"
+          ]
+        }
+      ]
+    },
+    "marine-acoustic-colab": {
+      "description": "Colab-friendly subset of underwater audio (~425 MB tar.gz, 11 WAVs). Covers all 3 units with day/night and seasonal diversity.",
+      "format": "tar.gz",
+      "total_size_bytes": 444760828,
+      "shards": [
+        {
+          "key": "marine-acoustic-colab/marine-acoustic-colab.tar.gz",
+          "size_bytes": 444760828,
+          "checksum_sha256": "8cc3d2635ab37f6184381d38a522c62821505a124d4ea4823fb4819683b339e2",
+          "tags": [
+            "colab"
+          ]
+        }
+      ]
+    },
+    "marine-acoustic-core": {
+      "description": "Curated subset of underwater audio (~7.3 GB, ~12h). 100 Pilot + 20 unit-6478 + 3 unit-5783 WAVs with temporal diversity.",
+      "format": "wav",
+      "total_size_bytes": 7332786128,
+      "shards": [
+        {
+          "key": "marine-acoustic/5783/5783.040122170635.log.xml",
+          "size_bytes": 2356,
+          "tags": [
+            "core",
+            "5783",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/5783/5783.040122170635.wav",
+          "size_bytes": 345614252,
+          "tags": [
+            "core",
+            "5783"
+          ]
+        },
+        {
+          "key": "marine-acoustic/5783/5783.040122220635.log.xml",
+          "size_bytes": 2230,
+          "tags": [
+            "core",
+            "5783",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/5783/5783.040122220635.wav",
+          "size_bytes": 345613676,
+          "tags": [
+            "core",
+            "5783"
+          ]
+        },
+        {
+          "key": "marine-acoustic/5783/5783.040123030635.log.xml",
+          "size_bytes": 2154,
+          "tags": [
+            "core",
+            "5783",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/5783/5783.040123030635.wav",
+          "size_bytes": 345602028,
+          "tags": [
+            "core",
+            "5783"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.221019181113.log.xml",
+          "size_bytes": 2124,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.221019181113.wav",
+          "size_bytes": 314540,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230723191251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230723191251.wav",
+          "size_bytes": 115199596,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230723234251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230723234251.wav",
+          "size_bytes": 115190316,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724044251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724044251.wav",
+          "size_bytes": 115196300,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724091251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724091251.wav",
+          "size_bytes": 115200972,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724141251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724141251.wav",
+          "size_bytes": 115193132,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724184251.log.xml",
+          "size_bytes": 2228,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724184251.wav",
+          "size_bytes": 115192876,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724234251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230724234251.wav",
+          "size_bytes": 115197292,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725041251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725041251.wav",
+          "size_bytes": 115197292,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725091251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725091251.wav",
+          "size_bytes": 115199404,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725134251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725134251.wav",
+          "size_bytes": 115196588,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725181251.log.xml",
+          "size_bytes": 2228,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725181251.wav",
+          "size_bytes": 115201100,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725231251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230725231251.wav",
+          "size_bytes": 115197772,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726034251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726034251.wav",
+          "size_bytes": 115195468,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726084251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726084251.wav",
+          "size_bytes": 115192460,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726131251.log.xml",
+          "size_bytes": 2228,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726131251.wav",
+          "size_bytes": 115197868,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726181251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726181251.wav",
+          "size_bytes": 115197196,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726224251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230726224251.wav",
+          "size_bytes": 115201772,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230727034251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230727034251.wav",
+          "size_bytes": 115198796,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230727081251.log.xml",
+          "size_bytes": 2226,
+          "tags": [
+            "core",
+            "6478",
+            "metadata"
+          ]
+        },
+        {
+          "key": "marine-acoustic/6478/6478.230727081251.wav",
+          "size_bytes": 115197228,
+          "tags": [
+            "core",
+            "6478"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3754.wav",
+          "size_bytes": 2292496,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3761.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3768.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3775.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3782.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3790.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3797.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3804.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3811.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3818.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3826.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3833.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3840.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3847.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3854.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3862.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3869.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3876.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3883.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3890.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3898.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3905.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3912.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3919.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3927.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190806_3934.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3941.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3948.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3955.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3963.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3970.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3977.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3984.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3991.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_3999.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4006.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4013.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4020.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4027.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4035.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4042.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4049.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4056.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4064.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4071.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4078.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4085.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4092.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4100.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4107.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4114.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4121.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4128.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4136.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4143.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4150.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4157.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4164.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4172.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4179.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4186.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4193.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4201.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4208.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4215.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190807_4222.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4229.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4237.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4244.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4251.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4258.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4265.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4273.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4280.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4287.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4294.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4301.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4309.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4316.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4323.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4330.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4338.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4345.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4352.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4359.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4366.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/190808_4374.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201007_5832.wav",
+          "size_bytes": 1753360,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201008_5849.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201008_5856.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201008_5863.wav",
+          "size_bytes": 43187344,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5885.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5892.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5899.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5906.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5913.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5921.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5928.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5935.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        },
+        {
+          "key": "marine-acoustic/Music_Soundtrap_Pilot/201010_5942.wav",
+          "size_bytes": 28791952,
+          "tags": [
+            "core",
+            "pilot"
+          ]
+        }
+      ]
+    },
+    "bruv-videos": {
+      "description": "BRUV underwater video files \u2014 2 deployments x 9 sub-videos each (~4 GB per sub-video, ~65 GB total)",
+      "format": "mp4",
+      "total_size_bytes": 69484813689,
+      "shards": [
+        {
+          "key": "bruv-videos/LGH010001.MP4",
+          "size_bytes": 4005206366,
+          "tags": [
+            "vid1",
+            "vid1-sub01"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH010002.MP4",
+          "size_bytes": 4005165616,
+          "tags": [
+            "vid2",
+            "vid2-sub01"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH020001.MP4",
+          "size_bytes": 4005018761,
+          "tags": [
+            "vid1",
+            "vid1-sub02"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH020002.MP4",
+          "size_bytes": 4004932215,
+          "tags": [
+            "vid2",
+            "vid2-sub02"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH030001.MP4",
+          "size_bytes": 4004972502,
+          "tags": [
+            "vid1",
+            "vid1-sub03"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH030002.MP4",
+          "size_bytes": 4005000330,
+          "tags": [
+            "vid2",
+            "vid2-sub03"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH040001.MP4",
+          "size_bytes": 4005060191,
+          "tags": [
+            "vid1",
+            "vid1-sub04"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH040002.MP4",
+          "size_bytes": 4004957632,
+          "tags": [
+            "vid2",
+            "vid2-sub04"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH050001.MP4",
+          "size_bytes": 4004997954,
+          "tags": [
+            "vid1",
+            "vid1-sub05"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH050002.MP4",
+          "size_bytes": 4005024215,
+          "tags": [
+            "vid2",
+            "vid2-sub05"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH060001.MP4",
+          "size_bytes": 4005047618,
+          "tags": [
+            "vid1",
+            "vid1-sub06"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH060002.MP4",
+          "size_bytes": 4004985282,
+          "tags": [
+            "vid2",
+            "vid2-sub06"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH070001.MP4",
+          "size_bytes": 4005031161,
+          "tags": [
+            "vid1",
+            "vid1-sub07"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH070002.MP4",
+          "size_bytes": 4004966746,
+          "tags": [
+            "vid2",
+            "vid2-sub07"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH080001.MP4",
+          "size_bytes": 4005029893,
+          "tags": [
+            "vid1",
+            "vid1-sub08"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH080002.MP4",
+          "size_bytes": 4004965703,
+          "tags": [
+            "vid2",
+            "vid2-sub08"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH090001.MP4",
+          "size_bytes": 3008002224,
+          "tags": [
+            "vid1",
+            "vid1-sub09"
+          ]
+        },
+        {
+          "key": "bruv-videos/LGH090002.MP4",
+          "size_bytes": 2396449280,
+          "tags": [
+            "vid2",
+            "vid2-sub09"
+          ]
+        }
+      ]
+    }
+  }
+}
